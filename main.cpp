@@ -18,7 +18,7 @@ int main() {
 	A = &rectA;
 	/*puntatore della classe padre che punta ad un oggetta della classe figlio, poiché tutto quello che
 	ha la classe figlio è anche della classe padre tramite ereditarietà. Eredita tutto quello che è
-	public e quello che è protected. Serve soprattutto per funzioni da mettere in classe padre e utilizzarlo nelle classi figlio 
+	public e quello che è virtual. Serve soprattutto per funzioni da mettere in classe padre e utilizzarlo nelle classi figlio 
 	-> una sola funzione per tutte le classi figlio che ne fanno parte. ES: 
 	void coloraArea (Quadrilateral *P) {...} 
 	int main ()
